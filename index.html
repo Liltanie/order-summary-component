@@ -12,27 +12,29 @@
 		/>
 		<link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
 		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/main.css" />
 		<title>Order summary component</title>
 	</head>
 	<body>
 		<main>
-			<article class="card container">
-				<img src="./images/illustration-hero.svg" alt="card image of woman dancing" srcset="" />
-				<div class="card__content">
-					<h1>Order Summary</h1>
-					<p>
-						You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
-						you like
-					</p>
-					<div class="card__chose-plan">
-						<img src="./images/icon-music.svg" alt="" srcset="" />
-						<p>Annual Plan<span>$59.99/year</span></p>
-						<button>Change</button>
-					</div>
-					<button class="btn btn--main">Proceed to Payment</button>
-					<button class="btn btn--cancel">Cancel Order</button>
-				</div>
-			</article>
+			<div class="container">
+				<article class="card">
+					<img src="./images/illustration-hero.svg" alt="card image of woman dancing" />
+					<div class="card__content spacing">
+						<h1>Order Summary</h1>
+						<p>
+							You can now listen to millions of songs, audiobooks, and podcasts on any device
+							anywhere you like!
+						</p>
+						<div class="card__chose-plan">
+							<img src="./images/icon-music.svg" alt="music icon" />
+							<p>Annual Plan<span>$59.99/year</span></p>
+							<button class="btn">Change</button>
+						</div>
+						<button class="btn btn--main">Proceed to Payment</button>
+						<button class="btn btn--cancel">Cancel Order</button>
+				</article>
+			</div>
 		</main>
 	</body>
 </html>
